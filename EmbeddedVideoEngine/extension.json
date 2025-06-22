@@ -1,0 +1,14 @@
+{
+  "name": "EmbeddedVideoEngine",
+  "version": "1.0",
+  "apiVersion": "1.0.0",
+  "minimum_logic_version": "2.3.38",
+  "author": "Rudolph Riedel",
+  "description": "Decodes FT81x/BT81x SPI frames.",
+  "extensions": {
+    "EmbeddedVideoEngine": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "EmbeddedVideoEngine.Hla"
+    }
+  }
+}
